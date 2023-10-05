@@ -393,7 +393,7 @@ header {
 }
 
 .card1 h3 {
-    width: 370px;
+    width: 350px;
     margin: 0 auto;
     text-align: left;
     font-size: 23px;
@@ -402,7 +402,7 @@ header {
 
 .card1 p {
     text-align: left;
-    width: 370px;
+    width: 350px;
     margin: auto;
     margin-top: 10px;
     font-size: 18px;
@@ -410,7 +410,7 @@ header {
 
 .card1 span {
     position: absolute;
-    left: 55px;
+    left: 63px;
     bottom: 15px;
     color: gray;
 }
