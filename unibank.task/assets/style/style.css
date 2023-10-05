@@ -1,0 +1,458 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.icon_fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 40px;
+    z-index: 999;
+    background-color: orangered;
+    padding: 20px;
+}
+
+.icon_fixed2 {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    border-radius: 40px;
+    z-index: 999;
+    background-color: orangered;
+    padding: 20px;
+}
+
+.hidden_nav {
+    display: none;
+}
+
+header {
+    height: 143px;
+    width: 100%;
+}
+
+.head_nav {
+    display: flex;
+    width: 97%;
+    height: 70px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 58%;
+}
+
+.logo_a ul {
+    display: flex;
+    gap: 18px;
+    width: 96%;
+    list-style: none;
+}
+
+.logo_a a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(44, 44, 44);
+}
+
+.logo_a img {
+    width: 30px;
+    height: 37px;
+}
+
+.nav_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.nav_a ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.nav_a a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    border: 1px solid rgb(238, 236, 236);
+    box-shadow: 0px 25px 40px -5px rgba(0, 0, 0, 0.18);
+    padding: 13px 10px;
+    border-radius: 5px;
+}
+
+.nav_bar {
+    display: flex;
+    width: 97%;
+    height: 73px;
+    margin: 15px auto;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav_bar_a {
+    text-decoration: none;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    gap: 33px;
+}
+
+.nav_bar_a a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.nav_bar_icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid orangered;
+    width: 96px;
+    border-radius: 40px;
+    padding: 12px 17px;
+    justify-content: space-between;
+    font-size: 19px;
+}
+
+.carusel_section {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.ferdi_li button {
+    border-radius: 10px;
+    width: 100px;
+    padding: 13px 5px;
+    border: 0;
+    color: black;
+}
+
+.ferdi_li button:focus-within {
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.carusel_div {
+    display: flex;
+    width: 97%;
+    margin: 40px auto;
+    height: 550px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.carusel_img {
+    position: absolute;
+    bottom: -104px;
+    left: 90px;
+}
+
+.carusel_img img {
+    width: 550px;
+}
+
+.carusel_text {
+    position: absolute;
+    right: 100px;
+    top: 40%;
+}
+
+.carusel_text h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 54px;
+}
+
+.carusel_text p {
+    width: 650px;
+    color: white;
+    font-size: 23px;
+}
+
+.card_section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 40px;
+}
+
+.card_div {
+    width: 22%;
+    background-color: rgb(252, 248, 248);
+    border-radius: 9px;
+    margin-top: 50px;
+    height: 350px;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.card_div h2 {
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.card_div h1 {
+    font-size: 80px;
+    color: orangered;
+    margin-top: 10px;
+}
+
+.card_div p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.card_div button {
+    width: 160px;
+    padding: 15px;
+    border-radius: 70px;
+    color: white;
+    background-color: rgb(255, 102, 0);
+    font-size: 20px;
+    border-style: none;
+}
+
+.section_utm {
+    display: flex;
+    width: 97%;
+    height: 430px;
+    justify-content: space-between;
+    margin: 70px auto;
+}
+
+.img_kart {
+    width: 52%;
+    position: relative;
+}
+
+.img_kart img {
+    position: absolute;
+    top: -65px;
+    left: -30px;
+    width: 660px;
+}
+
+.senin_kartin {
+    width: 45%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.senin_kartin h3 {
+    color: orangered;
+    font-size: 41px;
+    padding-bottom: 30px;
+}
+
+.senin_kartin p {
+    width: 630px;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+.utm_button {
+    display: flex;
+    gap: 20px;
+    padding-top: 35px;
+}
+
+.utm_button button {
+    width: 150px;
+    padding: 17px 18px;
+    border-radius: 26px;
+    border-style: none;
+    border: 1px solid gray;
+    color: rgb(100, 100, 100);
+    background-color: white;
+    font-size: 16px;
+}
+
+.utm_button button:first-child {
+    width: 110px;
+    background-color: rgb(255, 102, 0);
+    border: none;
+    color: white;
+}
+
+.section_utm2 {
+    width: 100%;
+    margin-top: 190px;
+}
+
+.senin_kartin2 {
+    position: relative;
+    margin: 0px auto;
+    width: 97%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.senin_kartin2_text {
+    width: 45%;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+}
+
+.senin_kartin2_text h3 {
+    font-size: 36px;
+    color: orangered;
+    padding-bottom: 24px;
+}
+
+.senin_kartin2_text p {
+    font-size: 20px;
+    width: 620px;
+    color: rgb(57, 57, 57);
+    padding-bottom: 40px;
+}
+
+.senin_kartin2_text label {
+    padding: 14px 32px;
+    border: 1px solid black;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.img_kart2 img {
+    position: absolute;
+    right: 0;
+    top: -220px;
+    width: 600px;
+    bottom: 0;
+}
+
+.senin_kartin2_text button {
+    margin-top: 40px;
+    background-color: orangered;
+    color: white;
+    padding: 15px 40px;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.unibank_kb {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unibank_kb_main {
+    width: 97%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unibank_kb_main_card {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card1 {
+    height: 250px;
+    text-align: center;
+    width: 33%;
+    position: relative;
+    padding: 40px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.card1 h3 {
+    width: 420px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 23px;
+    color: orangered;
+}
+
+.card1 p {
+    text-align: left;
+    width: 420px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card1 span {
+    position: absolute;
+    left: 35px;
+    bottom: 15px;
+    color: gray;
+}
+
+.card1:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.card1:hover h3 {
+    color: white;
+}
+
+.card1:hover span {
+    color: white;
+}
+
+.unibank_kb_main button {
+    background-color: orangered;
+    color: white;
+    padding: 17px 28px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .hidden_nav {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .head_nav {
+        display: none;
+    }
+    .nav_bar {
+        display: none;
+    }
+    .card_section div {
+        width: 48%;
+    }
+}
